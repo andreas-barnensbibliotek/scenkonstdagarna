@@ -1,0 +1,31 @@
+
+<div id="nav-arrlist" class="container-grid sektion1 produktion ">
+  <div class="link-container link-container-produktion">
+    <div class="responsive-picture picture-1">
+      <picture  >
+        <img alt="{{htmlPageData?.acf?.rubrik}}" width="1500" height="1000" src="{{htmlPageData?.acf?.arrdetailimages.url}}" loading="lazy" *ngIf="htmlPageData?.acf?.arrdetailimages.url">
+      </picture>
+    </div>
+  </div>
+</div>
+<div class="container-grid sektion2 produktion" id="presentation">
+  <h1 class="heading-produktion" [innerHtml]="htmlPageData?.acf?.rubrik"></h1>
+</div>
+<div class="container-grid sektion4 produktion" >
+  <div class="responsive-video vimeo" *ngIf="showVideobox" >
+    <iframe [src]="videoUrl" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="container-grid sektion5 produktion">
+  <h4 class="alder-produktion" [innerHtml]="htmlPageData?.acf?.alder"></h4>
+  <h5 [innerHtml]="htmlPageData?.acf?.utovare"></h5>
+  <p class="paragraph paragraph-produktion" [innerHtml]="htmlPageData?.acf?.content"></p>
+  <div class="container-grid">
+    <a class="link-text text-link-1" href="{{htmlPageData?.acf?.kataloglink}}" target="_blank" title="{{htmlPageData?.acf?.rubrik}}">Läs mer om produktionen i Kulturkatalogen Väst &gt;&gt;</a>
+  </div>
+</div>
+<div class="container-grid sektion4-produktion">
+  <div class="container-grid undersektion-alder produktion">
+    <a class="link-button btn aldersgrupper alder-0-6 produktion" (click)="goBack()">Tillbaka till översikt</a>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div id="goto9999" class="container-grid sektion2">
+  <h1 class="heading-1" [innerHtml]="htmlPageData[0]?.acf.rubrik"></h1>
+  <p class="paragraph ingress" [innerHtml]="htmlPageData[0]?.acf.ingress"></p>
+</div>
+<div class="container-grid sektion3">
+  <div class="container-grid undersektion-intro" [innerHtml]="htmlPageData[0]?.acf.content">
+  </div>
+  <div class="container-grid undersektion-kontakter" [innerHtml]="htmlPageData[0]?.acf.kontakt">
+  </div>
+</div>
+<div class="container-grid sektion4" *ngIf="showVideobox">
+  <div class="responsive-video vimeo"  >
+    <iframe [src]="videoUrl" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>

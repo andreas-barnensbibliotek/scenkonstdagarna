@@ -1,0 +1,1237 @@
+/* Text Elements */
+
+h1.heading-1 {
+  max-width: 700px;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+h1.heading-produktion {
+  max-width: 890px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+h2.heading-2 {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h2.rubrik-kontakter {
+  font-size: 22px;
+}
+
+h2.rubrik-alder {
+  margin-bottom: 30px;
+  width: 100%;
+  color: #fff;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+h3.namn-kontakter {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+h3.titel-card {
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+h3.titel-card:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+h4.text-kontakter {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h4.titel-kontakter {
+  margin-bottom: 2px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h4.info-kontakter {
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+h4.epost-kontakter {
+  color: #000;
+  font-size: 15px;
+}
+
+h4.alder-card {
+  margin-top: 8px;
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+h4.alder-produktion {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h4.epost-kontakter:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+h4.alder-card:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+h5.motesplats-heading {
+  padding-bottom: 40px;
+  width: 100%;
+  color: #000;
+  font-size: 22px;
+}
+
+h5.kulturkatalogen-heading {
+  margin-bottom: 0;
+  max-width: 460px;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h5 span.heading-text-1 {
+  color: #000;
+  font-weight: 700;
+}
+
+h5 span.heading-text-2 {
+  background-color: transparent;
+}
+
+h5 span.heading-text-3 {
+  font-weight: 700;
+}
+
+h5 span.heading-text-5 {
+  font-weight: 400;
+}
+
+h5 span.heading-text-6 {
+  font-weight: 400;
+}
+
+h5 span.heading-text-7 {
+  font-weight: 400;
+}
+
+h5.motesplats-heading:hover {
+  text-decoration: underline;
+}
+
+p.paragraph.ingress {
+  margin-top: 20px;
+  max-width: 700px;
+  font-size: 22px;
+}
+
+p.paragraph.paragraph-1 {
+  font-size: 17px;
+}
+
+p.paragraph {
+  font-size: 17px;
+}
+
+p.paragraph.paragraph-2 {
+  margin-bottom: 0;
+}
+
+p.paragraph.text-card {
+  margin-top: 15px;
+  margin-bottom: 0;
+  color: #000;
+  font-size: 17px;
+}
+
+p.paragraph.paragraph-produktion {
+  max-width: 750px;
+  font-size: 17px;
+}
+
+p.paragraph span.paragraph-text-1 {
+  font-weight: 700;
+}
+
+p.paragraph span.paragraph-text-2 {
+  font-weight: 700;
+}
+
+p.paragraph span.paragraph-text-3 {
+  font-weight: 700;
+}
+
+p.paragraph span.paragraph-text-4 {
+  font-weight: 700;
+}
+
+a.link-text.text-link-1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+a.link-text.text-link-1:hover {
+  text-decoration: underline;
+}
+
+/* Interaction Elements */
+
+a.link-button.btn {
+  padding-top: 3px;
+  padding-right: 0;
+  padding-left: 0;
+  min-height: 50px;
+  border-width: 0;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #68688e;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+a.link-button.aldersgrupper.btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 0;
+  min-width: 250px;
+  max-height: 50px;
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+a.link-button.alder-7-12 {
+  background-color: #4d8197;
+}
+
+a.link-button.alder-13-19 {
+  background-color: #77a565;
+}
+
+a.link-button.alder-13-19.aldersgrupper.btn {
+  padding-top: 6px;
+  min-height: 0;
+  height: 50px;
+  background-color: #62828f;
+}
+
+a.link-button.alder-0-6.aldersgrupper.btn {
+  padding-top: 6px;
+  background-color: #757593;
+}
+
+a.link-button.alder-7-12.aldersgrupper.btn {
+  padding-top: 6px;
+  background-color: #99a373;
+}
+
+a.link-button.alder-0-6.aldersgrupper.btn.produktion {
+  padding-top: 6px;
+  width: 288px;
+  background-color: #ae6360;
+  font-size: 24px;
+}
+
+a.link-button.alder-0-6.aldersgrupper.btn:hover {
+  background-color: rgba(117, 117, 147, .8);
+}
+
+a.link-button.alder-7-12.aldersgrupper.btn:hover {
+  background-color: rgba(153, 163, 115, .8);
+}
+
+a.link-button.alder-13-19.aldersgrupper.btn:hover {
+  background-color: rgba(98, 130, 143, .8);
+}
+
+a.link-button.alder-0-6.aldersgrupper.btn.produktion:hover {
+  background-color: rgba(174, 99, 96, .8);
+}
+
+a.link-button.alder-0-6.aldersgrupper.btn:active {
+  background-color: rgba(117, 117, 147, .8);
+}
+
+a.link-button.alder-7-12.aldersgrupper.btn:active {
+  background-color: rgba(153, 163, 115, .8);
+}
+
+a.link-button.alder-13-19.aldersgrupper.btn:active {
+  background-color: rgba(98, 130, 143, .8);
+}
+
+/* Layout Elements */
+
+body.body-1 {
+  background-color: #fafaf2;
+}
+
+.link-container.undersektion-card-link {
+  min-height: 100%;
+}
+
+.link-container.link-container-1 {
+  color: #000;
+}
+
+.link-container.link-container-2 {
+  color: #000;
+}
+
+.link-container.link-container-3 {
+  color: #000;
+}
+
+.link-container.link-container-4 {
+  color: #000;
+}
+
+.link-container.link-container-5 {
+  color: #000;
+}
+
+.link-container.link-container-6 {
+  color: #000;
+}
+
+.link-container.link-container-7 {
+  color: transparent;
+}
+
+.link-container.link-container-produktion {
+  color: transparent;
+}
+
+.link-container.link-container-9 {
+  color: #fff;
+}
+
+.link-container.undersektion-card-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.link-container.link-container-9:hover {
+  text-decoration: underline;
+}
+
+div.responsive-picture.picture-1 {
+  min-width: 100%;
+  max-width: none;
+  background-image: url('../80-talsbarn_1500.jpg');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  background-repeat: repeat;
+
+  background-blend-mode: normal;
+}
+
+.container-grid.undersektion-intro {
+  display: block;
+}
+
+.container-grid.sektion3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 890px;
+  width: 95%;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+}
+
+.container-grid.sektion2 {
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  max-width: 890px;
+  width: 95%;
+}
+
+.container-grid.undersektion-kontakter {
+  margin-top: 40px;
+  padding: 15px;
+  min-width: 0;
+  border-radius: 10px;
+  background-color: rgba(210, 172, 210, .8);
+}
+
+.container-grid.wrap-kontakt {
+  margin-bottom: 10px;
+}
+
+.rule.rule-1 hr {
+  border-top-width: 2px;
+  border-top-color: #000;
+}
+
+.rule.rule-1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container-grid.sektion4 {
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 890px;
+  width: 95%;
+}
+
+.container-grid.sektion5 {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 10px;
+  min-height: 50px;
+  max-width: 890px;
+  width: 95%;
+  background-color: transparent;
+}
+
+.container-grid.sektion6 {
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #757593;
+}
+
+.container-grid.undersektion-card {
+  margin: 0 0 20px;
+  padding: 15px;
+  min-width: 0;
+  min-height: 100px;
+  max-width: none;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container-grid.undersektion-card-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -ms-flex-pack: center;
+  -ms-flex-align: start;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: none;
+  width: 95%;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+          align-items: flex-start;
+}
+
+div.responsive-picture.picture-card {
+  min-width: 0;
+  max-width: none;
+}
+
+.container-grid.invisible.undersektion-card {
+  position: absolute;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: auto;
+  max-height: 10px;
+  height: 10px;
+}
+
+.container-grid.a.invisible.undersektion-card {
+  position: absolute;
+  right: 1000px;
+  height: 0;
+}
+
+.container-grid.b.invisible.undersektion-card {
+  right: 2000px;
+  height: 0;
+}
+
+.container-grid.sektion7 {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #99a373;
+}
+
+.container-grid.sektion8 {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #62828f;
+}
+
+.container-grid.undersektion-alder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -ms-flex-pack: start;
+  -ms-flex-align: center;
+  min-width: 0;
+
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+          justify-content: flex-start;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.container-grid.footer.sektion9 {
+  padding-bottom: 50px;
+  min-height: 300px;
+  background-color: #556171;
+}
+
+.container-grid.sektion4-produktion {
+  margin: 30px auto 40px;
+  min-width: 10px;
+  min-height: 50px;
+  max-width: 890px;
+  width: 95%;
+  background-color: transparent;
+}
+
+.container-grid.produktion.undersektion-alder {
+  -ms-flex-pack: center;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+}
+
+.container-grid.produktion.sektion4 {
+  margin-top: 20px;
+}
+
+.container-grid.produktion.sektion5 {
+  margin-top: 30px;
+}
+
+.container-grid.produktion.sektion2 {
+  margin-top: 0;
+}
+
+.container-grid.container-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+  -ms-flex-align: center;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  max-width: 1200px;
+  width: 95%;
+
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+}
+
+div.responsive-picture.picture-2 {
+  margin-top: 10px;
+  max-width: 250px;
+  background-image: url('../Scenkonstdagar_ordbild_ny.png');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+div.responsive-picture.picture-3 {
+  margin-top: 40px;
+  max-width: 250px;
+  background-image: url('../VGR_Logga_vit_2103.png');
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+.container-grid.wrap-banner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: justify;
+  -ms-flex-align: start;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  max-width: 1200px;
+  width: 95%;
+
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+          align-items: flex-start;
+}
+
+.container-grid.motesplats {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 0;
+  margin-bottom: 8px;
+  padding: 10px;
+  min-height: auto;
+  width: 100%;
+  height: auto;
+  border: .0625rem solid #fef200;
+  border-radius: 10px;
+  background-color: #fef200;
+  background-image: url('../motesplats_1000.jpg');
+  background-attachment: scroll;
+  background-position: right bottom;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+  background-blend-mode: normal;
+}
+
+.container-grid.kulturkatalogen {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 8px;
+  margin-left: 0;
+  padding: 10px;
+  min-height: 70px;
+  width: 100%;
+  height: auto;
+  border: .0625rem solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+}
+
+div.responsive-picture.picture-card:hover {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+@media screen and (min-width: 36rem) {
+  /* Text Elements */
+
+  h1.heading-produktion {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  h1.heading-1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  h4.text-kontakter {
+    width: 95%;
+  }
+
+  h5.motesplats-heading {
+    padding-bottom: 30px;
+    width: 100%;
+  }
+
+  h5.kulturkatalogen-heading {
+    width: 100%;
+  }
+
+  p.paragraph.ingress {
+    margin-top: 30px;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.aldersgrupper.btn {
+    margin-right: 0;
+    min-width: 0;
+    width: 32%;
+    font-size: 24px;
+  }
+
+  a.link-button.btn {
+    padding-top: 5px;
+  }
+
+  .container-grid.undersektion-intro {
+    margin-right: 20px;
+  }
+
+  .container-grid.sektion3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 30px;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+  }
+
+  .container-grid.undersektion-kontakter {
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    min-width: 240px;
+    max-width: 270px;
+    max-height: 780px;
+    width: auto;
+  }
+
+  .container-grid.undersektion-card {
+    margin-right: 0;
+    margin-left: 0;
+    min-width: 0;
+    min-height: 590px;
+    max-width: 347px;
+    width: 48.6%;
+  }
+
+  .container-grid.undersektion-card-row {
+    -ms-flex-pack: justify;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+
+  .container-grid.undersektion-alder {
+    -ms-flex-pack: justify;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+
+  .container-grid.produktion.sektion2 {
+    margin-top: 20px;
+  }
+
+  .container-grid.sektion2 {
+    margin-top: 20px;
+  }
+
+  .container-grid.sektion5 {
+    margin-top: 40px;
+  }
+
+  .container-grid.sektion6 {
+    padding-bottom: 70px;
+  }
+
+  .container-grid.sektion7 {
+    padding-bottom: 70px;
+  }
+
+  .container-grid.sektion8 {
+    padding-bottom: 70px;
+  }
+
+  .container-grid.wrap-banner {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: auto;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+  }
+
+  .container-grid.kulturkatalogen {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: justify;
+    margin-top: 8px;
+    margin-left: 0;
+    padding-bottom: 0;
+    min-height: 75px;
+    width: 100%;
+    height: auto;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+
+  .container-grid.motesplats {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: justify;
+    margin-right: 0;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 100%;
+    background-size: 80% auto;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  /* Text Elements */
+
+  h2.heading-2 {
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  h5.motesplats-heading {
+    padding-bottom: 10px;
+    width: 60%;
+  }
+
+  h5.kulturkatalogen-heading {
+    max-width: none;
+  }
+
+  p.paragraph {
+    font-size: 17px;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.aldersgrupper.btn {
+    width: 32.2%;
+  }
+
+  .container-grid.undersektion-intro {
+    margin-right: 50px;
+  }
+
+  .container-grid.undersektion-kontakter {
+    min-width: 285px;
+  }
+
+  .container-grid.undersektion-card {
+    min-width: 0;
+    min-height: 590px;
+    max-width: 296px;
+    width: 32%;
+  }
+
+  .container-grid.invisible.undersektion-card {
+    position: static;
+  }
+
+  .container-grid.a.invisible.undersektion-card {
+    position: static;
+    height: 0;
+  }
+
+  .container-grid.b.invisible.undersektion-card {
+    position: absolute;
+  }
+
+  .container-grid.container-1 {
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-align: center;
+    padding-top: 30px;
+    min-height: 200px;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+            align-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+  }
+
+  div.responsive-picture.picture-2 {
+    margin-top: 10px;
+    padding-top: 0;
+    min-height: 110px;
+  }
+
+  div.responsive-picture.picture-3 {
+    margin-top: 60px;
+    min-height: 110px;
+  }
+
+  .container-grid.motesplats {
+    padding-bottom: 15px;
+    background-size: 60% auto;
+  }
+
+  .container-grid.kulturkatalogen {
+    -ms-flex-pack: center;
+    -ms-flex-align: start;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    min-height: 75px;
+
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+            align-items: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+            align-content: flex-start;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
+  }
+
+  .container-grid.footer.sektion9 {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 62rem) {
+  /* Text Elements */
+
+  h5.motesplats-heading {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  h5.kulturkatalogen-heading {
+    max-width: 460px;
+    width: 100%;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.aldersgrupper.btn {
+    width: 32.4%;
+  }
+
+  .container-grid.undersektion-kontakter {
+    width: auto;
+  }
+
+  .container-grid.sektion3 {
+    -ms-flex-pack: center;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+            justify-content: center;
+  }
+
+  .container-grid.undersektion-card {
+    min-height: 550px;
+    max-width: 362px;
+    width: 32.2%;
+  }
+
+  .container-grid.undersektion-card-row {
+    -ms-flex-pack: justify;
+    max-width: 1200px;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+
+  .container-grid.kulturkatalogen {
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: start;
+    -ms-flex-align: center;
+    margin-top: 0;
+    margin-left: 8px;
+    padding-top: 0;
+    min-height: 157px;
+    max-height: 100%;
+    height: 100%;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+            justify-content: flex-start;
+  }
+
+  .container-grid.wrap-banner {
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-align: start;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+            align-items: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+            align-content: flex-start;
+  }
+
+  .container-grid.motesplats {
+    margin-right: 8px;
+    min-height: auto;
+    background-size: 80% auto;
+  }
+}
+
+@media screen and (min-width: 75rem) {
+  /* Text Elements */
+
+  h5 span.heading-text-4 {
+    font-weight: 400;
+  }
+
+  h5.motesplats-heading {
+    color: #000;
+    font-size: 22px;
+  }
+
+  /* Interaction Elements */
+
+  a.link-button.alder-13-19.aldersgrupper.btn {
+    background-color: #62828f;
+  }
+
+  a.link-button.alder-7-12.aldersgrupper.btn {
+    background-color: #99a373;
+  }
+
+  a.link-button.alder-0-6.aldersgrupper.btn {
+    background-color: #757593;
+  }
+
+  a.link-button.alder-0-6.aldersgrupper.btn.produktion {
+    background-color: #ae6360;
+  }
+
+  /* Layout Elements */
+
+  .link-container.link-container-9 {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .link-container.link-container-8:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .link-container.link-container-9:hover {
+    text-decoration: underline;
+  }
+
+  .container-grid.undersektion-card-row {
+    -ms-flex-pack: justify;
+    max-width: 1200px;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+
+  .container-grid.undersektion-card {
+    position: static;
+    min-height: 570px;
+    max-width: 290px;
+    width: 24%;
+  }
+
+  .container-grid.b.invisible.undersektion-card {
+    position: static;
+  }
+
+  .container-grid.a.invisible.undersektion-card {
+    max-width: 290px;
+  }
+
+  .container-grid.sektion7 {
+    margin-top: 0;
+    background-color: #99a373;
+  }
+
+  .container-grid.sektion8 {
+    margin-top: 0;
+    background-color: #62828f;
+  }
+
+  .container-grid.sektion6 {
+    background-color: #757593;
+  }
+
+  div.responsive-picture.picture-3 {
+    margin-top: 60px;
+  }
+
+  .container-grid.wrap-banner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -ms-flex-pack: justify;
+
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+            justify-content: space-between;
+  }
+}

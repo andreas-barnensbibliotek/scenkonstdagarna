@@ -1,0 +1,17 @@
+<div class="container-grid sektion2 produktion" id="presentation">
+  <h1 class="heading-produktion">Mötesplats barnkultur</h1>
+</div>
+<div class="container-grid sektion4 produktion" *ngIf="showVideobox">
+  <div class="responsive-video" >
+    <iframe [src]="videoUrl" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="container-grid sektion5 produktion">
+  <h4 class="alder-produktion">”Väder och vind, eller Vad tusan händer” – om att arrangera scenkonst utomhus</h4>
+  <p class="paragraph paragraph-produktion"></p>
+</div>
+<div class="container-grid sektion4-produktion">
+  <div class="container-grid undersektion-alder produktion">
+    <a class="link-button btn aldersgrupper alder-0-6 produktion" (click)="goBack()" >Tillbaka till översikt</a>
+  </div>
+</div>

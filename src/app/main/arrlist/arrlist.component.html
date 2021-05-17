@@ -1,0 +1,20 @@
+<div class="container-grid categorystart" id="alder-0-6">
+  <div class="container-grid undersektion-card-row">
+    <h2 class="rubrik-alder">{{categoryName}}</h2>
+    <div class="container-grid undersektion-card" *ngFor="let item of htmlPageData">
+      <a id="goto{{item.id}}"  [routerLink]="" class="link-container undersektion-card-link" (click)="gotodetail(item.id)">
+        <div class="responsive-picture picture-card">
+          <picture>
+            <img alt="{{item.acf.arrimage.title}}" width="300" height="200" src="{{item.acf.arrimage.url}}" loading="lazy">
+          </picture>
+        </div>
+        <h4 class="alder-card" [innerHtml]="item.acf.alder"></h4>
+        <h3 class="titel-card" [innerHtml]="item.acf.rubrik"></h3>
+        <p class="paragraph text-card" [innerHtml]="item.acf.content"></p>
+      </a>
+    </div>
+
+    <div class="container-grid undersektion-card invisible a"></div>
+    <div class="container-grid undersektion-card invisible b"></div>
+  </div>
+</div>
